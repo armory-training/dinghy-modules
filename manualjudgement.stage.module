@@ -4,7 +4,7 @@
   "judgmentInputs": [],
   "name": "Manual Judgment",
   "notifications": [],
-  "refId": {{ var "refId" ?: 0 }},
+  "refId": "{{ var "refId" ?: 0 }}",
   "requisiteStageRefIds": {{ var "requisiteStageRefIds" ?: [] }},
   "type": "manualJudgment"
 }
