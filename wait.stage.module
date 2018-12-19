@@ -1,7 +1,7 @@
 {
-    "name": "Wait for something",
+    "name": "Wait for the world to end",
     "refId": "1",
     "requisiteStageRefIds": {{ var "requisiteStageRefIds" ?: [] }},
     "type": "wait",
-    "waitTime": {{ var "waitTime" ?: 300 }}
+    "waitTime": {{ var "waitTime" ?: 30000 }}
 }
